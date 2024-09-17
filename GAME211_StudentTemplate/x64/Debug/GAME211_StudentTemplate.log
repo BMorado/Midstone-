@@ -1,0 +1,17 @@
+﻿  Body.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Body.h(4,10): fatal  error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  GameManager.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\GameManager.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Grid.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.h(4,10): fatal  error C1083: Cannot open include file: 'VMath.h': No such file or directory
+  Main.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\GameManager.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  PlayerBody.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Body.h(4,10): fatal  error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  Scene1.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.h(4,10): fatal  error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  Timer.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Timer.cpp(1,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Window.cpp
+R:\Humber Semester 3\Game Production\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Window.cpp(2,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

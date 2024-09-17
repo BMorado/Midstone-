@@ -1,0 +1,300 @@
+﻿  Body.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  CircleCircleProjectile.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\CircleCircleProjectile.cpp(14,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CircleCircleTower.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'CircleCircleTower.cpp')
+  Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\CircleCircleTower.cpp(17,20):
+  	see reference to function template instantiation 'std::shared_ptr<CircleCircleProjectile> std::make_shared<CircleCircleProjectile,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<CircleCircleProjectile>::_Ref_count_obj2<MATH::Vec3&,_Ty,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,_Ty &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+          with
+          [
+              _Ty=MATH::Vec3
+          ]
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(_Ty &,MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CircleCircleProjectile
+          ]
+  
+  CircleProjectile.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\CircleProjectile.cpp(17,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CircleTower.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'CircleTower.cpp')
+  Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\CircleTower.cpp(17,20):
+  	see reference to function template instantiation 'std::shared_ptr<CircleProjectile> std::make_shared<CircleProjectile,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<CircleProjectile>::_Ref_count_obj2<MATH::Vec3&,_Ty,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,_Ty &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+          with
+          [
+              _Ty=MATH::Vec3
+          ]
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(_Ty &,MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CircleProjectile
+          ]
+  
+  CircleTriangleProjectile.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\CircleTriangleProjectile.cpp(14,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CircleTriangleTower.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'CircleTriangleTower.cpp')
+  Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\CircleTriangleTower.cpp(17,20):
+  	see reference to function template instantiation 'std::shared_ptr<CircleTriangleProjectile> std::make_shared<CircleTriangleProjectile,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<CircleTriangleProjectile>::_Ref_count_obj2<MATH::Vec3&,_Ty,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,_Ty &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+          with
+          [
+              _Ty=MATH::Vec3
+          ]
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(_Ty &,MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CircleTriangleProjectile
+          ]
+  
+  Enemy.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Enemy.cpp(69,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EnemyCircle.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  EnemyDiamond.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  EnemyHexagon.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  EnemyMiniSquare.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\EnemyMiniSquare.cpp(71,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EnemySquare.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  EnemyStar.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  EnemyTriangle.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  GameManager.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  GameOver.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  Grid.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(27,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(27,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(30,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(30,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(33,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(33,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(45,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(45,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(46,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(47,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(87,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(87,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(88,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(89,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(131,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(131,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(132,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(133,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(203,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(203,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'Grid.cpp')
+  Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Grid.cpp(235,19):
+  	see reference to function template instantiation 'std::shared_ptr<CircleTower> std::make_shared<CircleTower,int&,int,int,int,int,GameManager*&>(int &,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<CircleTower>::_Ref_count_obj2<int&,_Ty,_Ty,_Ty,_Ty,GameManager*&>(int &,_Ty &&,_Ty &&,_Ty &&,_Ty &&,GameManager *&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int&,int,int,int,int,GameManager*&>(_Ty &,int &,int &&,int &&,int &&,int &&,GameManager *&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CircleTower
+          ]
+  
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Grid.cpp')
+  
+  imgui_impl_sdl2.cpp
+  imgui_impl_sdlrenderer2.cpp
+  Generating Code...
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\DLinkedList.h(235): warning C4715: 'DLinkedList<MATH::Vec2>::popBack': not all control paths return a value
+  Compiling...
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Main.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  PlayerBody.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\PlayerBody.cpp(50,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ProjectileSystem.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\ProjectileSystem.cpp(133,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\ProjectileSystem.cpp(170,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Scene1.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(171,48): warning C4244: 'argument': conversion from 'const Sint32' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(171,32): warning C4244: 'argument': conversion from 'const Sint32' to 'float', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(179,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(179,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(179,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(179,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(279,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(279,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(283,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(283,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(312,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(312,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(317,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(317,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(380,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(380,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(388,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(388,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(416,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(416,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(422,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\Scene1.cpp(422,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Spawner.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  Timer.cpp
+  TowerSystem.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\TowerSystem.cpp(124,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  TriangleProjectiles.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\TriangleProjectiles.cpp(13,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  TriangleTower.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'TriangleTower.cpp')
+  Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\TriangleTower.cpp(14,20):
+  	see reference to function template instantiation 'std::shared_ptr<TriangleProjectiles> std::make_shared<TriangleProjectiles,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<TriangleProjectiles>::_Ref_count_obj2<MATH::Vec3&,_Ty,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,_Ty &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+          with
+          [
+              _Ty=MATH::Vec3
+          ]
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(_Ty &,MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=TriangleProjectiles
+          ]
+  
+  TriangleTriangleProjectile.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\TriangleTriangleProjectile.cpp(14,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  TriangleTriangleTower.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'TriangleTriangleTower.cpp')
+  Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\TriangleTriangleTower.cpp(17,20):
+  	see reference to function template instantiation 'std::shared_ptr<TriangleTriangleProjectile> std::make_shared<TriangleTriangleProjectile,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<TriangleTriangleProjectile>::_Ref_count_obj2<MATH::Vec3&,_Ty,int,int,int,int,int,GameManager*&>(MATH::Vec3 &,_Ty &&,int &&,int &&,int &&,int &&,int &&,GameManager *&)' being compiled
+          with
+          [
+              _Ty=MATH::Vec3
+          ]
+  	Z:\Visual Studio Stuff\Down Cash\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,MATH::Vec3&,MATH::Vec3,int,int,int,int,int,GameManager*&>(_Ty &,MATH::Vec3 &,MATH::Vec3 &&,int &&,int &&,int &&,int &&,int &&,GameManager *&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=TriangleTriangleProjectile
+          ]
+  
+  WaveController.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+  Window.cpp
+  Generating Code...
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\DLinkedList.h(307): warning C4715: 'DLinkedList<std::shared_ptr<Wave> >::popFront': not all control paths return a value
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\DLinkedList.h(235): warning C4715: 'DLinkedList<std::shared_ptr<Wave> >::popBack': not all control paths return a value
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\DLinkedList.h(235): warning C4715: 'DLinkedList<std::shared_ptr<TowerSystem> >::popBack': not all control paths return a value
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\DLinkedList.h(235): warning C4715: 'DLinkedList<std::shared_ptr<ProjectileSystem> >::popBack': not all control paths return a value
+Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\GAME211_StudentTemplate\DLinkedList.h(235): warning C4715: 'DLinkedList<std::shared_ptr<Enemy> >::popBack': not all control paths return a value
+  GAME211_StudentTemplate.vcxproj -> Z:\Semester 5\AI\Midstone-Group4\Midstone\Mid Stone\Midstone-Group4\Debug\GAME211_StudentTemplate.exe
